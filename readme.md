@@ -1,3 +1,19 @@
+Gerenciamento de Reservas
+
+
+Software de gerenciamento de reservas.
+
+Para instalação, é necessário que se tenha o composer instalado e as variáveis de ambiente configuradas. Este link pode ajudar em caso de dúvidas: http://adonaidiofanes.com.br/blog/instalar-laravel-e-composer/ 
+Segue link com a documentação oficial do laravel: https://laravel.com/docs/5.8/installation
+
+Para rodar a aplicação, no terminal, dentro da pasta principal, digite: php artisan serve.
+Logo após, abra um novo terminal e execute o comando php artisan migrate, para criação do banco de dados.
+Já é possível registrar novos usuários e efetuar login, além de acessar os demais recursos.
+Para execução de testes, digite: .vendor\bin\phpunit, na pasta principal.
+
+As classes de testes encontram-se na pasta tests.
+
+
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
 <p align="center">
